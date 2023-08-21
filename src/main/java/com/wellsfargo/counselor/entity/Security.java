@@ -33,8 +33,7 @@ public class Security {
     public Security() {
     }
 
-    public Security(long securityId, Portfolio portfolio, String name, String category, double purchasePrice, Date purchaseDate, int quantity) {
-        this.securityId = securityId;
+    public Security(Portfolio portfolio, String name, String category, double purchasePrice, Date purchaseDate, int quantity) {
         this.portfolio = portfolio;
         this.name = name;
         this.category = category;
