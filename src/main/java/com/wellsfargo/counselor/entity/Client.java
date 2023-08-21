@@ -32,8 +32,7 @@ public class Client {
 
     }
 
-    public Client(long clientId, Advisor advisor, String firstName, String lastName, String address, String phone, String email) {
-        this.clientId = clientId;
+    public Client(Advisor advisor, String firstName, String lastName, String address, String phone, String email) {
         this.advisor = advisor;
         this.firstName = firstName;
         this.lastName = lastName;
